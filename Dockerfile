@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.15
+ENV VERSION=0.0.3
 
 RUN gem install jirarest2 --version ${VERSION} --no-format-exec
 
